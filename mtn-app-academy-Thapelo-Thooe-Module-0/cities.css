@@ -1,0 +1,9 @@
+/* Add styles to position the floating buttons */
+.floating-buttons {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Add additional styles as needed */
