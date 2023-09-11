@@ -1,3 +1,3 @@
-Now I will add project modules 0-10 and push the to the mtn repo
-I have added 10 modules that will each have a REAME.md file explainig what each module does
-add my dirs
+I added images to all pages
+I added detaills to every page plus form
+I need to fix the css and js scripts
