@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cape Town</title>
+    <style>
+      /* Add CSS styling here */
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+      }
+      h1 {
+        color: #007acc;
+      }
+      p {
+        margin: 20px;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      /* Add more CSS styles as needed */
+    </style>
+  </head>
+  <body>
+    <h1>Cape Town: The Tech Hub of South Africa</h1>
+    <p>
+      Welcome to the stunning city of Cape Town, known for its breathtaking
+      landscapes, vibrant culture, and thriving tech industry. With institutions
+      like the University of Cape Town and the Cape Peninsula University of
+      Technology, Cape Town has become a hub for innovation and
+      entrepreneurship. The city is home to numerous startups and established
+      companies, including international giants like Google and Microsoft. The
+      city's thriving tech industry has contributed to its growth in the 4IR
+      space, with a focus on AI, fintech, and cybersecurity. In addition to its
+      tech prowess, Cape Town is also a popular tourist destination, with
+      attractions like Table Mountain, Robben Island, and the Cape of Good Hope.
+      The city has also made significant contributions towards climate change
+      mitigation, with initiatives like the Cape Town Water Conservation Plan
+      and the Green Cape Project.
+    </p>
+    <div class="container">
+      <img src="cape_town_image1.jpg" alt="Cape Town Image 1" />
+      <img src="cape_town_image2.jpg" alt="Cape Town Image 2" />
+      <img src="cape_town_image3.jpg" alt="Cape Town Image 3" />
+    </div>
+
+    <!-- Bonus: Mock Contact Form -->
+    <form>
+      <h2>Contact Us</h2>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required /><br />
+
+      <label for="surname">Surname:</label>
+      <input type="text" id="surname" name="surname" required /><br />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required /><br />
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea><br />
+
+      <label>Select your favorite city:</label><br />
+      <input
+        type="radio"
+        id="capeTown"
+        name="favoriteCity"
+        value="Cape Town"
+        checked
+      />
+      <label for="capeTown">Cape Town</label><br />
+
+      <input
+        type="radio"
+        id="johannesburg"
+        name="favoriteCity"
+        value="Johannesburg"
+      />
+      <label for="johannesburg">Johannesburg</label><br />
+
+      <input
+        type="radio"
+        id="kimberley"
+        name="favoriteCity"
+        value="Kimberley"
+      />
+      <label for="kimberley">Kimberley</label><br />
+
+      <input type="radio" id="pretoria" name="favoriteCity" value="Pretoria" />
+      <label for="pretoria">Pretoria</label><br />
+
+      <input type="radio" id="durban" name="favoriteCity" value="Durban" />
+      <label for="durban">Durban</label><br />
+
+      <input type="radio" id="otherCity" name="favoriteCity" value="Other" />
+      <label for="otherCity">Other</label>
+      <br />
+
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

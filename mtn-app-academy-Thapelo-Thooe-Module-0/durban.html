@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cape Town</title>
+    <style>
+      /* Add CSS styling here */
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+      }
+      h1 {
+        color: #007acc;
+      }
+      p {
+        margin: 20px;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      /* Add more CSS styles as needed */
+    </style>
+  </head>
+  <body>
+    <h1>Durban: The Business and Tourism Hub of KwaZulu-Natal</h1>
+    <p>
+      Located on the scenic eastern coast of South Africa, Durban is a thriving
+      metropolis that offers a unique blend of business and leisure. The city is
+      home to the Durban University of Technology and numerous other educational
+      institutions, making it a hub for innovation and entrepreneurship.
+      Durban's business-friendly environment has attracted numerous companies,
+      including major retailers and manufacturers. The city is also a popular
+      tourist destination, with attractions like the Golden Mile, uShaka Marine
+      World, and the Durban Beachfront. In addition to its economic prowess,
+      Durban has made significant contributions towards climate change
+      mitigation, with initiatives like the Durban Climate Change Adaptation
+      Framework and the EThekwini Municipality's Green Building Policy.
+    </p>
+    <div class="container">
+      <img src="durban_image1.jpg" alt="Durban Image 1" />
+      <img src="durban_image2.jpg" alt="Durban Image 2" />
+      <img src="durban_image3.jpg" alt="Durban Image 3" />
+    </div>
+
+    <!-- Bonus: Mock Contact Form -->
+    <form>
+      <h2>Contact Us</h2>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required /><br />
+
+      <label for="surname">Surname:</label>
+      <input type="text" id="surname" name="surname" required /><br />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required /><br />
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea><br />
+
+      <label>Select your favorite city:</label><br />
+      <input
+        type="radio"
+        id="capeTown"
+        name="favoriteCity"
+        value="Cape Town"
+        checked
+      />
+      <label for="capeTown">Cape Town</label><br />
+
+      <input
+        type="radio"
+        id="johannesburg"
+        name="favoriteCity"
+        value="Johannesburg"
+      />
+      <label for="johannesburg">Johannesburg</label><br />
+
+      <input
+        type="radio"
+        id="kimberley"
+        name="favoriteCity"
+        value="Kimberley"
+      />
+      <label for="kimberley">Kimberley</label><br />
+
+      <input type="radio" id="pretoria" name="favoriteCity" value="Pretoria" />
+      <label for="pretoria">Pretoria</label><br />
+
+      <input type="radio" id="durban" name="favoriteCity" value="Durban" />
+      <label for="durban">Durban</label><br />
+
+      <input type="radio" id="otherCity" name="favoriteCity" value="Other" />
+      <label for="otherCity">Other</label>
+      <br />
+
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
